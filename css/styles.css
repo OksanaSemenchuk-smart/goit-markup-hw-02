@@ -1,206 +1,191 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h3,
+.hero-btn,
+.header-link {
+  font-weight: 500;
+}
+
+.header-logo,
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-logo-part,
+.footer-logo-part {
+  color: #4d5ae5;
+}
+
+.header-link,
+.header-logo,
+.advantages-list-title,
+.team-title,
+.team-list-title,
+.portfolio-title,
+.portfolio-list-title {
+  color: #2e2f42;
 }
 
 /* header */
-.contact-info {
-    font-style: normal;
+.header-contact {
+  font-style: normal;
 }
-.contact-info .contact-info-link {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.header-contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.contact-info-link:hover,
-.contact-info-link:focus {
-    color: #404bbf;
+.header-contact-link:hover,
+.header-contact-link:focus,
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
 }
 
-.navigation {
-    color: inherit;
+.header-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-
-.top-link {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
-
-.top-link:hover,
-.top-link:focus {
-    color: #404bbf;
-}
-
-.top-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #2e2f42;
-}
-
-.top-logo-part {
-        color: #4d5ae5;
-}
-
 /* end header */
 
 /* section 1 */
 
-.first {
-    background-color: #2e2f42;
+.hero {
+  background-color: #2e2f42;
 }
 
-.first-press {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #4d5ae5;
-        cursor: pointer;
+.hero-btn,
+.hero-title {
+  color: #fff;
 }
-.first-press:hover, 
-.first-press:focus {
-    background: #404bbf;
+.hero-btn {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: #4d5ae5;
+  cursor: pointer;
 }
-
-.first-heading {
-    font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07143;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #404bbf;
 }
 
-/* end section 1 */ 
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
 
+/* end section 1 */
 
 /* section 2 Advantages of our company */
-/* .advantages-title - потрібно прибрати заголовок, але поки не ясно як */
 
 .advantages-list-title {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .advantages-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-} 
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 /* end section 2 Advantages of our company */
 
 /* section 3 Our team */
 
 .team {
-    background-color: #f4f4fd;
+  background-color: #f4f4fd;
 }
 .team-title {
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .team-list-title {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .team-list-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 /* end section 3 Our team */
 
-/* section 4 - Our Porfolio*/ 
+/* section 4 - Our Porfolio*/
 
 .portfolio-title {
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .portfolio-list-title {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .portfolio-list-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 /* end section 4 - Our Porfolio*/
 
 /* footer*/
 
-.bottom {
-    background-color: #2e2f42;
+.footer {
+  background-color: #2e2f42;
 }
 
-.bottom-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #f4f4fd;
+.footer-logo,
+.footer-text {
+  color: #f4f4fd;
 }
 
-.bottom-logo-part {
-    color: #4d5ae5;
-}
-
-.bottom-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* end footer*/
